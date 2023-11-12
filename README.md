@@ -6,6 +6,9 @@ ReactアプリをDocker composeでECSでデプロイ
 - Docker Desktopがインストールされていること
 - Nodeがインストールされていること
 
+## 使用技術
+React,AWS ECR,AWS ECS,Docker,Github Actions
+
 -----
 
 
