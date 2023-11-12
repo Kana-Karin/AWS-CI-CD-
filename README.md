@@ -1,10 +1,10 @@
 # コンテナベースのデプロイ、CI/CDパイプラインの構築のデモ  
 ReactアプリをDocker composeでECSでデプロイ  
 ## 前提条件
-- AWS CLIがインストールされていること
-- AWS IAMにて適切なユーザーが作成済みであること（AmazonEC2ContainerRegistryPowerUserロールが必須です）
-- Docker Desktopがインストールされていること
-- Nodeがインストールされていること
+- AWS CLIがインストールされている
+- AWS IAMにて適切なユーザーが作成済み
+- Docker Desktopがインストール済み
+- Nodeがインストールされている
 
 ## 使用技術
 React,AWS ECR,AWS ECS,Docker,Github Actions
