@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  react-ecs-sample:
+    container_name: react-ecs-sample
+    image: 338993737264.dkr.ecr.ap-northeast-1.amazonaws.com/aws-react-ecs:latest
+    ports:
+      - 80:80
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 2048M
